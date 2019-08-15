@@ -1,0 +1,14 @@
+a:link {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: green;
+}
+p.cen {
+	padding-top: 10%;
+}
