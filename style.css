@@ -3,7 +3,7 @@ a:link {
 }
 
 a:hover {
-  color: blue;
+  color: orange;
 }
 
 a:active {
@@ -11,4 +11,21 @@ a:active {
 }
 p.cen {
 	padding-top: 10%;
+}
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
